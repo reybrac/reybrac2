@@ -1,0 +1,174 @@
+#myBtnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(5, 192, 46);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtnTop:hover {
+  background-color: #555;
+}
+
+.container {
+  flex: 1;
+}
+
+#section2 {
+  border: teal;
+  border-style: solid;
+  height: auto;
+  padding: 30px;
+  margin-top: 10px;
+  /* margin-right: 510px; */
+  background-color: rgb(64, 86, 109);
+  color: white;
+}
+#section3 {
+  border: teal;
+  border-style: solid;
+  height: auto;
+  padding: 0px;
+  margin-top: 10px;
+  /* margin: 10px; */
+  background-color: rgb(64, 86, 109);
+  opacity: 0.85;
+}
+
+#rower1 {
+  border: white;
+  text-align: center;
+  margin: 10px;
+  border-style: double;
+  background-color: white;
+  opacity: 0.95;
+  background-image: url("https://media.istockphoto.com/photos/tropical-beach-background-picture-id1145474071?k=6&m=1145474071&s=612x612&w=0&h=p4eN7OqEjFFcBtFZfQG283Tngx_Y8T49T3ZCXSpBxjU=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  list-style-type: none;
+}
+
+.nobullets {
+  list-style-type: none;
+}
+
+#rower2 {
+  border: white;
+  margin: 10px;
+  border-style: double;
+  background-color: white;
+  opacity: 0.85;
+}
+
+#section1 {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background-color: rgb(39, 40, 41);
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+body {
+  background-color: lightslategray;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex-direction: column;
+  }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+
+  background-color: rgb(8, 8, 8);
+  color: white;
+  text-align: center;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: blue;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: "\02795";
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+/* .active:after {
+  content: "\2796";
+} */
+
+.container-fluid {
+  opacity: 0.95;
+}
+
+#profilepic {
+  border-radius: 25%;
+  background-color: white;
+  height: auto;
+  width: auto;
+}
+
+.card {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+.navi {
+  padding-left: 25px;
+  color: white;
+}
+
+#background {
+  background-image: url("https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Beach.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}

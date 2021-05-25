@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Project 2",
+      "url": "https://pacific-meadow-78512.herokuapp.com/",
+      "image":
+        "https://github.com/dorrianweber/project2/raw/main/public/images/Healthyhabits-homepage.jpg?raw=true",
+      "title": "Healthy Habits Site",
+      "description": "A website that allows users to make an account, so that they can keep track of their habits and take the steps to improve. Utized various technologies (Express.js, Handlebars.js, Chart.js, and more) to copmlete the project.",
+      "deployedSite": "https://pacific-meadow-78512.herokuapp.com/",
+      "githubRepo": "https://github.com/reybrac/HealthyHabits"
+    },
+    {
+        "id": 2,
+        "name": "Note-taker",
+        "url": "https://reybrac-note-taker.herokuapp.com/",
+        "image":
+          "https://github.com/reybrac/note_taker/blob/main/public/assets/Note-taker-image2.JPG?raw=true",
+        "title": "Note-taker",
+        "description": "An application that can be used to write and save notes. Uses an Express.js back end that will save and retrieve note data. Deployed to Heroku.",
+        "deployedSite": "https://reybrac-note-taker.herokuapp.com/",
+        "githubRepo": "https://github.com/reybrac/note_taker"
+    },
+    {
+        "id": 3,
+        "name": "Project 1",
+        "url": "https://reybrac.github.io/A-Taste-From-Home",
+        "image":
+          "https://github.com/reybrac/A-Taste-From-Home/raw/main/assets/Images/A-taste-from-home.JPG",
+        "title": "Restaurant and Recipe search site",
+        "description": "A taste of home website to search for restaurants in the area or recipes to make the food at home. This project exposed the complexities of working in a group. Working with API's, Bulma CSS, Javascript and the various functions.",
+        "deployedSite": "https://reybrac.github.io/A-Taste-From-Home",
+        "githubRepo": "https://github.com/reybrac/A-Taste-From-Home"
+    },
+    {
+        "id": 3,
+        "name": "Weather Dashboard",
+        "url": "https://reybrac.github.io/Weather-dashboard/",
+        "image":
+          "https://github.com/reybrac/Weather-dashboard/raw/main/Assets/images/Weather-Dashboard.JPG?raw=true",
+        "title": "Weather Dashboard",
+        "description": "First exposure to working with an API and Javascript to pull the information",
+        "deployedSite": "https://reybrac.github.io/Weather-dashboard/",
+        "githubRepo": "https://github.com/reybrac/Weather-dashboard"
+    },
+    {
+        "id": 3,
+        "name": "Work-Day-Scheduler",
+        "url": "https://reybrac.github.io/Work-day-scheduler",
+        "image":
+          "https://github.com/reybrac/Work-day-scheduler/raw/main/Assets/WD-scheduler.JPG?raw=true",
+        "title": "Work-Day-Scheduler",
+        "description": "This project further immersed me in the use of Javascript & Jquery and the various functions.",
+        "deployedSite": "https://reybrac.github.io/Work-day-scheduler",
+        "githubRepo": "https://github.com/reybrac/Work-day-scheduler"
+    }
+
+  ]
+  
